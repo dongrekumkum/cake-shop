@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sweet Cake Bakery</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<script defer src="script.js"></script>
+</head>
+<body class="bg-pink-50">
+
+<!-- Navbar -->
+<header class="bg-pink-400 text-white p-4 flex flex-col md:flex-row justify-between items-center">
+  <h1 class="text-2xl font-bold">Sweet Cake Bakery 🎂</h1>
+  <nav class="space-x-4 mt-2 md:mt-0">
+    <a href="index.html" class="hover:underline">Home</a>
+    <a href="about.html" class="hover:underline">About</a>
+    <a href="contact.html" class="hover:underline">Contact</a>
+  </nav>
+</header>
+
+<!-- Hero -->
+<section class="text-center py-16 bg-cover bg-center" style="background-image:url('https://via.placeholder.com/800')">
+  <h2 class="text-3xl md:text-5xl text-purple-400 font-bold">Freshly Baked Happiness</h2>
+  <p class="text-purple-300 mt-2">Delicious cakes made with love</p>
+  <button onclick="showOffer()" class="mt-4 bg-white text-pink-500 px-4 py-2 rounded">Get Offer</button>
+</section>
+
+<!-- Cakes -->
+<section class="p-6">
+  <h2 class="text-2xl font-bold mb-4">Our Special Cakes</h2>
+  <ul class="list-disc ml-6 mb-4">
+    <li>Chocolate Cake</li>
+    <li>Vanilla Cake</li>
+    <li>Strawberry Cake</li>
+  </ul>
+
+  <div class="overflow-x-auto">
+    <table class="w-full border">
+      <tr class="bg-pink-200"><th class="p-2">Cake</th><th class="p-2">Price</th></tr>
+      <tr><td class="p-2">Chocolate</td><td class="p-2">₹500</td></tr>
+      <tr><td class="p-2">Vanilla</td><td class="p-2">₹400</td></tr>
+    </table>
+  </div>
+</section>
+
+<footer class="bg-black text-white text-center p-4">
+  <p>© 2026 Sweet Cake Bakery</p>
+</footer>
+
+</body>
+</html>
